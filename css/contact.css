@@ -157,6 +157,6 @@ form:hover .form-button button{
 }
 @media(min-width: 1000px){
 	.f1{
-	padding: 88px;
+	padding-bottom: 88px;
 }
 }
