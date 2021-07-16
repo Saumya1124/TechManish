@@ -51,10 +51,6 @@ p{
 	padding-bottom: 10px;
 }
 
-.pic{
-	height: 80vh;
-
-}
 .pic img{
 	height: 320px;
 	margin: 5px;
@@ -306,6 +302,11 @@ p{
 
 	}
 }
+@media(max-width: 488px){
+	img{
+		width: 350px;
+	}
+}
 
 @media(max-width: 460px){
 
@@ -313,8 +314,18 @@ p{
 		display: none;
 	}
 }
+@media(max-width: 352px){
+	img{
+		width: 240px;
+	}
+}
 @media(max-width: 296px){
 	.footer-section .icons{
 		margin-top:50px;
+	}
+}
+@media(min-width: 1000px){
+	.main{
+		height: 80vh;
 	}
 }
